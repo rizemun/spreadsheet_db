@@ -1,0 +1,29 @@
+
+#olala {
+    width: 120px;
+    height: 80px;
+    background: lightgoldenrodyellow;
+    border: 2px solid lightgreen;
+    text-align: center;
+    line-height: 40px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+#olala:hover {
+    border-color: aqua;
+}
+
+#olala:active {
+    background-color: #D8D8B5;
+    border-color: #00cece;
+}
+
+#olala[disabled] {
+    border-color: #ddd;
+    background: #eee;
+    color: #777;
+    cursor: default;
+}
